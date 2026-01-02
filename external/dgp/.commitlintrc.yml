@@ -1,0 +1,6 @@
+# pre-commit declares the same extension, but we keep this here for the sake of
+# the commitlint action run in CI.
+extends:
+    - '@commitlint/config-conventional'
+rules:
+    type-enum: [2, 'always', ['build', 'chore', 'ci', 'docs', 'feat', 'fix', 'refactor', 'revert', 'perf', 'schema', 'style', 'test']]

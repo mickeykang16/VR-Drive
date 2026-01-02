@@ -1,0 +1,104 @@
+ddp:
+  ddp_enable: False
+  world_size: 1
+  gpus: [0]
+  
+model:
+  # mode: 'MF' or 'SF'
+  novel_view_mode: 'SF'
+
+  num_layers: 18
+  weights_init: True
+  
+  fusion_level: 2
+  fusion_feat_in_dim: 128
+  use_skips: True
+  
+  voxel_unit_size: [1.0, 1.0, 1.5] 
+  voxel_size: [100, 100, 20] 
+  voxel_str_p: [-50.0, -50.0, -15.0] 
+  voxel_pre_dim: [64]
+  proj_d_bins: 50
+  proj_d_str: 2
+  proj_d_end: 50
+
+data:
+  data_path: './data/nuscenes/'
+  log_dir: './results/'
+  dataset: 'nuscenes'
+  back_context: 1
+  forward_context: 1
+  depth_type: 'lidar'
+  # cameras: ['CAM_FRONT', 'CAM_FRONT_LEFT', 'CAM_FRONT_RIGHT', 'CAM_BACK_LEFT', 'CAM_BACK_RIGHT', 'CAM_BACK']
+  cameras: ['CAM_FRONT', 'CAM_FRONT_RIGHT', 'CAM_FRONT_LEFT', 'CAM_BACK', 'CAM_BACK_LEFT', 'CAM_BACK_RIGHT']
+  # gt_ego_pose, gt_depth is not used during training, only for visulization
+  train_requirements: (gt_pose, gt_ego_pose, gt_depth, mask)
+  # val_requirements: (gt_pose, gt_ego_pose, gt_depth, mask)
+  val_requirements: (gt_pose, gt_ego_pose, mask)
+
+training:
+  # basic
+  height: 256
+  width: 704
+  # height: 256
+  # width: 640
+  # height: 128
+  # width: 256
+  scales: [0] 
+  # frame_ids: [0, -1, 1]
+  frame_ids: [0, 1]
+  
+  # optimization
+  batch_size: 1
+  num_workers: 4
+  learning_rate: 0.0001
+  num_epochs: 10
+  scheduler_step_size: 15
+
+  # model / loss setting
+  ## depth range
+  min_depth: 1.5
+  max_depth: 80.0
+
+  ## spatio & temporal
+  spatio: True
+  spatio_temporal: True
+
+  ## gaussian
+  gaussian: True
+
+  ## intensity align
+  intensity_align: True
+  
+  ## focal length scaling
+  focal_length_scale: 300
+
+# Loss hyperparams
+loss:
+  disparity_smoothness: 0.001
+  spatio_coeff: 0.03
+  spatio_tempo_coeff: 0.1
+  # gaussian_coeff: 0.00005
+  gaussian_coeff: 0.1
+  pose_loss_coeff: 0.0
+  
+eval:
+  eval_batch_size: 1
+  eval_num_workers: 4
+  eval_min_depth: 4
+  eval_max_depth: 80
+  eval_visualize: False
+  save_images: False
+  save_path: './results_truck_sf_tilt_train_full/images'
+  # save_path: './debug'
+  
+load:
+  pretrain: False
+  models_to_load: ['depth_net', 'gs_net']
+  load_dir: path to weights directory
+  
+logging:
+  early_phase: 5000
+  log_frequency: 1000
+  late_log_frequency: 5000
+  save_frequency: 1
