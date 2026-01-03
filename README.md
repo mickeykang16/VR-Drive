@@ -29,9 +29,9 @@
 - [Citation](#citation)
 
 
-<div align="center"><b>Truncated Diffusion Policy.</b>
-<img src="assets/truncated_diffusion_policy.png" />
-<b>Pipeline of DiffusionDrive. DiffusionDrive is highly flexible to integrate with onboard sensor data and existing perception modules.</b>
+<div align="center"><b>Overall framework of VR-Drive.</b>
+<img src="assets/overall_framework.png" />
+<b>Our overall framework consists of three main components, as follows: (1) original-view learning, (2) novel-view learning, and (3) perception-planning learning. For novel-view learning, the perception-planning head is randomly assigned to either the original or a novel view during training, allowing the model to generalize across different viewpoints.</b>
 <img src="assets/pipeline.png" />
 </div>
 
