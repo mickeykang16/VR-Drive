@@ -3,16 +3,11 @@
 <h1>VR-Drive</h1>
 <h3>Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting</h3>
 
-[Hoonhee Cho](https://chohoonhee.github.io)<sup>1,*</sup>, 
-Jae-Young Kang<sup>1,*</sup>, 
-[Giwon Lee](https://giwonlee00.github.io)<sup>1,*</sup>, 
-Hyemin Yang<sup>1,*</sup>, 
-Heejun Park<sup>1</sup>, 
-Seokwoo Jung<sup>2</sup>, 
-[Kuk-Jin Yoon](https://vi.kaist.ac.kr)<sup>1,✉</sup>
+[Hoonhee Cho](https://chohoonhee.github.io)<sup>1,&ast;</sup>, Jae-Young Kang<sup>1,&ast;</sup>, [Giwon Lee](https://giwonlee00.github.io)<sup>1,&ast;</sup>, Hyemin Yang<sup>1,&ast;</sup>, Heejun Park<sup>1</sup>, Seokwoo Jung<sup>2</sup>, [Kuk-Jin Yoon](https://vi.kaist.ac.kr)<sup>1,✉</sup>
 
 <sup>1</sup>KAIST, <sup>2</sup>42dot  
-<sup>*</sup>Equal contribution. <sup>✉</sup>Corresponding author.
+<sup>&ast;</sup>Equal contribution. <sup>✉</sup>Corresponding author.
+
 
 
  
