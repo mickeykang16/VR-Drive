@@ -20,21 +20,15 @@
 </div>
 
 ## News
-* **` Jan. 18th, 2025`:** We release the initial version of code and weight on nuScenes, along with documentation and training/evaluation scripts.
-* **` Dec. 16th, 2024`:** We release the initial version of code and weight on NAVSIM, along with documentation and training/evaluation scripts.
-* **` Nov. 25th, 2024`:** We released our paper on [Arxiv](https://arxiv.org/abs/2411.15139). Code/Models are coming soon. Please stay tuned! ☕️
+* **` Jan. 4th, 2026`:** We release the initial version of our code for nuScenes, accompanied by comprehensive documentation and training/evaluation scripts.
 
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Video Demo on Real-world Application](#video-demo-on-real-world-application)
 - [Getting Started](#getting-started)
 - [Contact](#contact)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
 
-## Introduction
-Diffusion policy exhibits promising multimodal property and distributional expressivity in robotic field, while not ready for real-time end-to-end autonomous driving in more dynamic and open-world traffic scenes. To bridge this gap, we propose a novel truncated diffusion model, DiffusionDrive, for real-time end-to-end autonomous driving, which is much faster (10x reduction in diffusion denoising steps), more accurate (3.5 higher PDMS on NAVSIM), and more diverse (64% higher mode diversity score) than the vanilla diffusion policy. Without bells and whistles, DiffusionDrive achieves record-breaking 88.1 PDMS on NAVSIM benchmark with the same ResNet-34 backbone by directly learning from human demonstrations, while running at a real-time speed of 45 FPS.
 
 <div align="center"><b>Truncated Diffusion Policy.</b>
 <img src="assets/truncated_diffusion_policy.png" />
@@ -42,12 +36,6 @@ Diffusion policy exhibits promising multimodal property and distributional expre
 <img src="assets/pipeline.png" />
 </div>
 
-
-
-## Video Demo on Real-world Application
-
-
-https://github.com/user-attachments/assets/bd2364f3-73fd-4c29-b8b2-ead11f78926d
 
 
 
