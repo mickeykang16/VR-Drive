@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/logo.png" width="320">
+<img src="assets/logo.png" width="400">
 <h1>VR-Drive</h1>
 <h3>Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting</h3>
 
