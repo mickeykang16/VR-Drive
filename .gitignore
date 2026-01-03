@@ -209,3 +209,6 @@ __marimo__/
 # ignore large files
 nusc.pkl
 *.pkl
+
+# ignore data directory
+data/
