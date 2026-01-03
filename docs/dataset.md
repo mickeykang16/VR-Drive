@@ -57,6 +57,7 @@ Download the [NuScenes Novelview Testset](https://huggingface.co/datasets/mickey
 
 
 Your nuScenes dataset should be organized according to the following structure:
+```shell
 data
 └── nuscenes
     ├── can_bus
@@ -71,7 +72,7 @@ data
     ├── v1.0-test
     ├── v1.0-trainval
     └── val_token.txt
-
+```
 
 Pack the meta-information and labels of the dataset, and generate the required pkl files to data/infos. Note that we also generate map_annos in data_converter, with a roi_size of (30, 60) as default, if you want a different range, you can modify roi_size in tools/data_converter/nuscenes_converter.py.
 ```bash
