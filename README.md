@@ -25,7 +25,6 @@
 
 ## Table of Contents
 - [Getting Started](#getting-started)
-- [Contact](#contact)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
 
@@ -63,11 +62,10 @@
 | DiffusionDrive | ResNet-50 | [HF](https://huggingface.co/hustvl/DiffusionDrive) | [Github](https://github.com/hustvl/DiffusionDrive/releases/download/DiffusionDrive_nuScenes/diffusiondrive_stage2.log.log) |  0.27 | 0.54  | 0.90 |0.57 | 0.03  | 0.05 | 0.16 | 0.08  |
 
 
-## Contact
-If you have any questions, please contact [Bencheng Liao](https://github.com/LegendBC) via email (bcliao@hust.edu.cn).
+
 
 ## Acknowledgement
-DiffusionDrive is greatly inspired by the following outstanding contributions to the open-source community: [NAVSIM](https://github.com/autonomousvision/navsim), [Transfuser](https://github.com/autonomousvision/transfuser), [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), [MapTR](https://github.com/hustvl/MapTR), [VAD](https://github.com/hustvl/VAD), [SparseDrive](https://github.com/swc-17/SparseDrive).
+VR-Drive is greatly inspired by the following outstanding contributions to the open-source community: [DiffusionDrive](https://github.com/hustvl/DiffusionDrive), [SparseDrive](https://github.com/swc-17/SparseDrive), [DrivingForward](https://github.com/fangzhou2000/DrivingForward).
 
 ## Citation
 If you find DiffusionDrive is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
