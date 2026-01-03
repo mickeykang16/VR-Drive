@@ -65,7 +65,7 @@
 
 
 ## Acknowledgement
-VR-Drive is greatly inspired by the following outstanding contributions to the open-source community: [DiffusionDrive](https://github.com/hustvl/DiffusionDrive), [SparseDrive](https://github.com/swc-17/SparseDrive), [DrivingForward](https://github.com/fangzhou2000/DrivingForward).
+VR-Drive builds upon and is strongly influenced by several outstanding open-source projects, including [DiffusionDrive](https://github.com/hustvl/DiffusionDrive), [SparseDrive](https://github.com/swc-17/SparseDrive), [DrivingForward](https://github.com/fangzhou2000/DrivingForward).
 
 ## Citation
 If you find DiffusionDrive is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
