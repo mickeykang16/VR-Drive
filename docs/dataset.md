@@ -60,14 +60,4 @@ python -m torch.distributed.run \
     --no-validate
 ```
 
-## 3. Evaluation
-
-```bash
-bash ./tools/dist_test.sh \
-    projects/configs/diffusiondrive_configs/diffusiondrive_small_stage2.py \
-    ckpt/diffusiondrive_stage2.pth \
-    8 \
-    --deterministic \
-    --eval bbox
-```
 

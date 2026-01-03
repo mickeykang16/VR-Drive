@@ -1,9 +1,13 @@
 # VR-Drive Training and Evaluation
 
-## 1. Download the stage-1 ckpt from SparseDrive
-```bash
-wget https://github.com/swc-17/SparseDrive/releases/download/v1.0/sparsedrive_stage1.pth
+## 1. Download the DiffusionDrive stage-2 ckpt from huggingface
+https://huggingface.co/hustvl/DiffusionDrive/tree/main
+
+```shell
+ckpt
+└── diffusiondrive_stage2.pth
 ```
+
 
 
 ## 2. Training
@@ -25,6 +29,7 @@ python -m torch.distributed.run \
 
 ## 3. Evaluation
 
+### Original View Evaluation
 ```bash
 bash ./tools/dist_test.sh \
     projects/configs/diffusiondrive_configs/diffusiondrive_small_stage2.py \
