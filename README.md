@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/logo.png" width="80">
+<img src="assets/logo.png" width="320">
 <h1>DiffusionDrive</h1>
 <h3>Truncated Diffusion Model for End-to-End Autonomous Driving</h3>
 
