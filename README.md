@@ -23,11 +23,6 @@
 * **` Jan. 4th, 2026`:** We release the initial version of our code for nuScenes, accompanied by comprehensive documentation and training/evaluation scripts.
 
 
-## Table of Contents
-- [Getting Started](#getting-started)
-- [Acknowledgement](#acknowledgement)
-- [Citation](#citation)
-
 
 <div align="center"><b>Overall framework of VR-Drive.</b>
 <img src="assets/overall_framework.png" />
