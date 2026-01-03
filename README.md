@@ -31,7 +31,7 @@
 
 
 ## Getting Started
-- [Getting started from nuScenes environment preparation](https://github.com/swc-17/SparseDrive/blob/main/docs/quick_start.md)
+- [nuScenes environment and dataset preparation](docs/dataset.md)
 - [Training and Evaluation](docs/train_eval.md)
 
 
