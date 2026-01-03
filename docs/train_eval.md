@@ -32,9 +32,20 @@ python -m torch.distributed.run \
 ### Original View Evaluation
 ```bash
 bash ./tools/dist_test.sh \
-    projects/configs/diffusiondrive_configs/diffusiondrive_small_stage2.py \
-    ckpt/diffusiondrive_stage2.pth \
-    8 \
+    projects/configs/vrdrive_configs/ours_original.py \
+    work_space/vrdrive/checkpoint.pth \
+    4 \
+    --deterministic \
+    --eval bbox
+```
+
+
+### Novel View Evaluation
+```bash
+bash ./tools/dist_test.sh \
+    projects/configs/vrdrive_configs/ours_novel_view_***.py \
+    work_space/vrdrive/checkpoint.pth \
+    4 \
     --deterministic \
     --eval bbox
 ```
