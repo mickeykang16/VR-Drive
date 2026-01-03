@@ -3,7 +3,17 @@
 <h1>VR-Drive</h1>
 <h3>Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting</h3>
 
-[Bencheng Liao](https://github.com/LegendBC)<sup>1,2</sup>, [Shaoyu Chen](https://scholar.google.com/citations?user=PIeNN2gAAAAJ&hl=en&oi=sra)<sup>2,3</sup>, Haoran Yin<sup>3</sup>, [Bo Jiang](https://scholar.google.com/citations?user=UlDxGP0AAAAJ&hl=en)<sup>2</sup>, [Cheng Wang](https://scholar.google.com/citations?user=PdJIyPIAAAAJ&hl=zh-CN)<sup>1,2</sup>, [Sixu Yan](https://github.com/Yansixu/)<sup>2</sup>, Xinbang Zhang<sup>3</sup>, Xiangyu Li<sup>3</sup>, Ying Zhang<sup>3</sup>, [Qian Zhang](https://scholar.google.com/citations?user=pCY-bikAAAAJ&hl=zh-CN)<sup>3</sup>, [Xinggang Wang](https://xwcv.github.io)<sup>2 :email:</sup>
+[Hoonhee Cho](https://chohoonhee.github.io)<sup>1</sup><sup>*</sup>, 
+Jae-Young Kang<sup>1</sup><sup>*</sup>, 
+[Giwon Lee](https://giwonlee00.github.io)<sup>1</sup><sup>*</sup>, 
+Hyemin Yang<sup>1</sup><sup>*</sup>, 
+Heejun Park<sup>1</sup>, 
+Seokwoo Jung<sup>2</sup>, 
+[Kuk-Jin Yoon](https://vi.kaist.ac.kr)<sup>1</sup>
+
+<sup>1</sup>KAIST, <sup>2</sup>42dot  
+<sup>*</sup>Indicates Equal Contribution
+
  
 <sup>1</sup> Institute of Artificial Intelligence, HUST, <sup>2</sup> School of EIC, HUST, <sup>3</sup> Horizon Robotics
 
