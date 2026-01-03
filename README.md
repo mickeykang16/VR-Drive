@@ -36,45 +36,22 @@
 </div>
 
 
-
-
-
-
 ## Getting Started
-
 - [Getting started from nuScenes environment preparation](https://github.com/swc-17/SparseDrive/blob/main/docs/quick_start.md)
 - [Training and Evaluation](docs/train_eval.md)
-
-
-## Checkpoint
-> Results on NAVSIM
-
-
-| Method | Model Size | Backbone | PDMS | Weight Download |
-| :---: | :---: | :---: | :---:  | :---: |
-| DiffusionDrive | 60M | [ResNet-34](https://huggingface.co/timm/resnet34.a1_in1k) | [88.1](https://github.com/hustvl/DiffusionDrive/releases/download/DiffusionDrive_88p1_PDMS_Eval_file/diffusiondrive_88p1_PDMS.csv) | [Hugging Face](https://huggingface.co/hustvl/DiffusionDrive) |
-
-> Results on nuScenes
-
-
-| Method | Backbone | Weight | Log | L2 (m) 1s | L2 (m) 2s | L2 (m) 3s | L2 (m) Avg | Col. (%) 1s | Col. (%) 2s | Col. (%) 3s | Col. (%) Avg |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---:| :---: | :---: | :---: | :---: | :---: |
-| DiffusionDrive | ResNet-50 | [HF](https://huggingface.co/hustvl/DiffusionDrive) | [Github](https://github.com/hustvl/DiffusionDrive/releases/download/DiffusionDrive_nuScenes/diffusiondrive_stage2.log.log) |  0.27 | 0.54  | 0.90 |0.57 | 0.03  | 0.05 | 0.16 | 0.08  |
-
-
 
 
 ## Acknowledgement
 VR-Drive builds upon and is strongly influenced by several outstanding open-source projects, including [DiffusionDrive](https://github.com/hustvl/DiffusionDrive), [SparseDrive](https://github.com/swc-17/SparseDrive), [DrivingForward](https://github.com/fangzhou2000/DrivingForward).
 
+
 ## Citation
-If you find DiffusionDrive is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+If you find VR-Drive helpful in your research or applications, we would appreciate a star 🌟 on this repository and a citation using the BibTeX entry below.
 
 ```bibtex
- @article{diffusiondrive,
-  title={DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving},
-  author={Bencheng Liao and Shaoyu Chen and Haoran Yin and Bo Jiang and Cheng Wang and Sixu Yan and Xinbang Zhang and Xiangyu Li and Ying Zhang and Qian Zhang and Xinggang Wang},
-  journal={arXiv preprint arXiv:2411.15139},
-  year={2024}
-}
+  @inproceedings{chovr,
+    title={VR-Drive: Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting},
+    author={Cho, Hoonhee and Kang, Jae-Young and Lee, Giwon and Yang, Hyemin and Park, Heejun and Jung, Seokwoo and Yoon, Kuk-Jin},
+    booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}
+  }
 ```
