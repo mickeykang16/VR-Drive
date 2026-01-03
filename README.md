@@ -11,8 +11,9 @@
 
 
 
-[![DiffusionDrive](https://img.shields.io/badge/Paper-DiffusionDrive-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2411.15139)&nbsp;
-[![huggingface weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-DiffusionDrive-yellow)](https://huggingface.co/hustvl/DiffusionDrive)&nbsp;
+[![VR-Drive Paper](https://img.shields.io/badge/Paper-VR--Drive-2b9348.svg?logo=readme)](https://openreview.net/pdf/a9479d1d90a2762ee248170d1f5844228e68a116.pdf)&nbsp;
+[![VR-Drive Project Page](https://img.shields.io/badge/Project%20Page-VR--Drive-blue.svg?logo=githubpages)](https://vrdriveneurips.github.io/)&nbsp;
+
 
 
 
