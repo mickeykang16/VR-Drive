@@ -1,4 +1,4 @@
-# DiffusionDrive Training and Evaluation
+# VR-Drive Training and Evaluation
 
 ## 1. Download the stage-1 ckpt from SparseDrive
 ```bash
